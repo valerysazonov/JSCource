@@ -1,0 +1,19 @@
+{
+  "name": "jscource",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valerysazonov/JSCource.git"
+  },
+  "author": "vsazonov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valerysazonov/JSCource/issues"
+  },
+  "homepage": "https://github.com/valerysazonov/JSCource#readme"
+}
