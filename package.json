@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/valerysazonov/JSCource/issues"
   },
-  "homepage": "https://github.com/valerysazonov/JSCource#readme"
+  "homepage": "https://github.com/valerysazonov/JSCource#readme",
+  "dependencies": {
+    "mocha": "^6.1.4"
+  }
 }
