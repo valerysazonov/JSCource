@@ -1,6 +1,8 @@
 const logWithTag = (tag, text) => {
-    console.log(`[${tag}] ${new Date()} ${text} [${tag}]`)
-}
+    /* eslint-disable no-console */
+    console.log(`[${tag}] ${new Date()} ${text} [${tag}]`);
+    /* eslint-enable no-console */
+};
 
 class Log {
     info(text) {

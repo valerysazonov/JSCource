@@ -7,8 +7,8 @@ const dateUtil = require('../utils/dateTime.util');
 describe('Hello World Testsuite', () => {
     it('should write "Hello World"', () => {
         logger.info('Hello World');
-    })
-})
+    });
+});
 
 describe('DateTime Testsuite', () => {
     it('function today() should return current date', () => {
@@ -34,4 +34,4 @@ describe('DateTime Testsuite', () => {
         let actualDifferenceDays = dateUtil.daysDifference(dateLeft, dateRight);
         chai.assert.equal(actualDifferenceDays, expectedDifferenceDays, "Actual difference is not equal to expected");
     });
-})
+});
